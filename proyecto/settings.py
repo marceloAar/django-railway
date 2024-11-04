@@ -129,3 +129,7 @@ STORAGES = {
 }
 
 ALLOWED_HOSTS = ['localhost','web-production-acb8.up.railway.app']
+
+#CSRF_TOKEN_ORIGINS = ['https://web-production-acb8.up.railway.app']
+
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://web-production-acb8.up.railway.app']
